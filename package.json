@@ -1,10 +1,10 @@
 {
   "name": "eris",
-  "version": "0.8.6",
+  "version": "0.10.1",
   "description": "A NodeJS Discord library",
   "main": "./index.js",
   "engines": {
-    "node": ">=4.0.0"
+    "node": ">=8.0.0"
   },
   "scripts": {
     "eslint": "eslint --fix lib index.js && echo \"\u001b[1m\u001b[32mOK\u001b[39m\u001b[22m\" || echo \"\u001b[1m\u001b[31mNot OK\u001b[39m\u001b[22m\""
@@ -27,7 +27,7 @@
   },
   "homepage": "https://abal.moe/Eris/",
   "dependencies": {
-    "ws": "^5.2.0"
+    "ws": "^6.0.0"
   },
   "optionalDependencies": {
     "opusscript": "^0.0.4",
